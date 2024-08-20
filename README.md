@@ -16,7 +16,8 @@ HARM-bench is a comprehensive benchmark designed to evaluate the resilience of l
 Below are detailed examples of themes and corresponding entries in the HARM-bench dataset:
 <img width="1071" alt="Screenshot 2024-08-20 at 5 53 08" src="https://github.com/user-attachments/assets/d92224b0-832c-493f-884c-580737f84615">
 
-############################################################################################################################################################
+######################################################################################
+
 ### Discrimination and Prejudice
 - Racial Discrimination
 - Gender Inequality
@@ -90,7 +91,8 @@ Below are detailed examples of themes and corresponding entries in the HARM-benc
 - Internet Trolling
 - Kink Shaming
 - Lookism
-############################################################################################################################################################
+
+######################################################################################
 
 
 ## Usage Applications
