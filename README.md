@@ -1,6 +1,4 @@
-Certainly! Here's a refined version of the README for HARM-bench that emphasizes the themes covered by your benchmark, adding more depth and focus on the variety and significance of each category.
 
----
 
 # HARM-bench: Benchmarking AI Robustness Against Harmful Speech
 
