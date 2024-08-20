@@ -1,9 +1,12 @@
 
 
-# HARM-bench: Benchmarking AI Robustness Against Harmful Speech
+# HARM-bench: Benchmarking AI Robustness Against Harmful Speech and Toxicity 
+<img width="987" alt="Screenshot 2024-08-20 at 6 56 12" src="https://github.com/user-attachments/assets/79642e01-eba0-40cb-8eda-f5dd0a2304c5">
+
+
 
 ## Introduction
-HARM-bench is a comprehensive benchmark designed to evaluate the resilience of language models (LLMs) against a diverse range of biases and harmful speech scenarios. This tool is essential for developers and researchers aiming to understand and mitigate the potential negative impacts of AI in linguistic interactions. It includes over 8,000 paired questions and answers that exemplify both harmful and neutral responses across more than 100 identified themes of bias and harmful expressions.
+HARM-bench is a comprehensive benchmark designed to evaluate the resilience of language models (LLMs) against a diverse range of biases and harmful speech scenarios. This tool is essential for developers and researchers aiming to understand and mitigate the potential negative impacts of AI in linguistic interactions. It includes over 1,100 paired questions and answers that exemplify both harmful and neutral responses across more than 100 identified themes of bias and harmful expressions.
 
 ## Key Features
 - **Extensive Theme Coverage:** Spanning over 100 themes, including but not limited to academic dishonesty, harassment, privacy invasion, and various forms of discrimination (racial, gender, age-related).
