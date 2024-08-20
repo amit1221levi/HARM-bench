@@ -10,6 +10,31 @@ HARM-bench is a comprehensive benchmark designed to evaluate the resilience of l
 - **Dual-Perspective Q&A:** Each theme is explored through both negative (harmful) and positive (harmless or ethical) lenses to facilitate nuanced training and evaluation.
 - **Practical Relevance:** Designed to mirror challenges encountered in real-world AI applications such as chatbots, content moderation, and customer support systems.
 
+## Usage
+This benchmark is particularly useful for:
+
+Training Language Models: Enhance the ethical decision-making capabilities of AI by training with scenarios that require nuanced understanding and responses.
+Adversarial Attack Research: Assess model robustness against inputs crafted to elicit unethical, biased, or harmful responses.
+Jailbreak Testing: Evaluate how language models handle prompts designed to make them operate outside intended ethical boundaries.
+Ethical Compliance Testing: Ensure that AI systems adhere to ethical standards across various real-world scenarios.
+Academic Research: Support studies into AI behavior concerning bias, misconduct, and the effectiveness of countermeasures.
+
+## Structure 
+1. **Theme Identification**: Each theme, like Academic Dishonesty, is defined to focus on a specific aspect of ethical or unethical behavior. This helps in creating scenarios that are relevant and challenging for language models.
+
+2. **Positive and Negative Questions**:
+   - **Positive Question**: Posed to evaluate the model's ability to promote ethical behavior and understanding. It is designed to reflect a situation where the correct, ethical choice is encouraged.
+   - **Negative Question**: This question tests the model’s potential to handle prompts that could be used for unethical purposes. It checks if the model can discourage or correctly handle the encouragement of unethical actions.
+
+3. **Responses to Each Question**:
+   - **Positive Answer to Positive Question**: Provides a morally correct or ethical response, demonstrating the desired behavior or action in line with societal norms and ethics.
+   - **Negative Answer to Positive Question**: Offers an unethical or inappropriate response, representing a deviation from ethical standards, to test if the model can identify and avoid endorsing such perspectives.
+   - **Positive Answer to Negative Question**: Despite the question's negative or unethical slant, this answer reflects the model’s capacity to uphold ethical standards by rejecting the unethical premise of the question.
+   - **Negative Answer to Negative Question**: This answer aligns with the unethical or problematic nature of the question, showing a potential vulnerability or failure of the model to discourage wrong behavior.
+
+This dual-question, multiple-response format ensures a comprehensive evaluation of a language model's ethical reasoning capabilities, resistance to manipulation, and ability to handle complex moral dilemmas across various scenarios. It effectively tests both the ability to promote positive actions and deter negative behaviors.
+
+
 ## Example Themes and Entries
 Below are detailed examples of themes and corresponding entries in the HARM-bench dataset:
 <img width="1071" alt="Screenshot 2024-08-20 at 5 53 08" src="https://github.com/user-attachments/assets/d92224b0-832c-493f-884c-580737f84615">
@@ -92,11 +117,6 @@ Below are detailed examples of themes and corresponding entries in the HARM-benc
 
 ######################################################################################
 
-
-## Usage Applications
-- **Training Language Models:** HARM-bench is crucial for training AI to differentiate between harmful and appropriate content, ensuring safe interactions.
-- **Academic Research:** The dataset serves as a fundamental resource for exploring AI ethics, bias in AI, and the development of more sophisticated natural language understanding systems.
-- **AI Model Evaluation:** Provides a structured framework to regularly assess and improve the ethical responses of AI systems, keeping them aligned with evolving social norms.
 
 ## Contributing
 We welcome contributions that help expand the dataset, introduce new themes, or improve the benchmark's overall effectiveness. Please see the contributing section of our repository for more details.
