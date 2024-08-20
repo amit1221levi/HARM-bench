@@ -117,9 +117,3 @@ Below are detailed examples of themes and corresponding entries in the HARM-benc
 
 ######################################################################################
 
-
-## Contributing
-We welcome contributions that help expand the dataset, introduce new themes, or improve the benchmark's overall effectiveness. Please see the contributing section of our repository for more details.
-
-## Licensing
-HARM-bench is made available under the MIT License. Full license details can be found in the `LICENSE` file in the repository.
